@@ -1,0 +1,110 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: linear-gradient(to top, #25313e, #32414b); 
+    }
+
+.Grid-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 150px 150px 150px;
+    grid-column-gap: 6px;
+    grid-row-gap: 8px;
+}
+.item_grid {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 31px;
+    background-color: #374449;
+    margin: 5px;
+    color: white;
+    box-shadow: inset 0 0 0 5px rgb(82, 81, 81);
+}
+
+#screen-result
+{
+   background: linear-gradient(to top, #2c2538, #1c1c1c45);
+   font-size: 80px;
+   color: rgb(255, 255, 255);
+}
+
+input {
+    text-align: center;
+    font-size: 60px;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: #374449;
+    border-radius: 25px;
+    color: white;
+    box-shadow: inset 0 0 0 5px rgb(82, 81, 81);
+}
+
+P {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+
+
+#calc{
+
+    font-size: 50px;
+
+}
+
+.btn
+{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%; 
+    background-color: #e79907;
+    
+}
+.btn:hover
+{
+ background-color: rgb(255, 196, 0);
+ 
+}
+
+
+.item1 {
+    font-size: 50px;
+    padding: 7%;
+    text-align: right;
+    grid-area: 1 / 1 / 2 / 4;
+    
+}
+
+.item2 {
+    padding: 7% 7% 7% 7%;
+    grid-area: 2 / 1/ 2/ 2;
+}
+
+.Item3 {
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+.Item4 {
+    grid-area: 4 / 1 / 4 /1;
+}
+.item5 {
+    grid-area: 3 / 2 / 3 / 2;
+}
+
+.Item6 {
+    grid-area: 2 /2 / 2 /2;
+}
+
+.item7 {
+    grid-area: 4 / 2 / 4 / 2;
+}
+.item8 {
+    
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.item9 {
+  
+    grid-area: 3 / 3 / 5 / 4;
+}

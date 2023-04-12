@@ -1,0 +1,43 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/css/CalculateSp.css">
+    <script  defer type="module" src="../main/js/CalculateSp.js"></script>
+    <script  defer type="tex/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="container bg-black">
+        <header class="d-flex py-lg-1">
+            <ul class="nav nav-pills">
+              <li><a href="index.html" class="nav-link px-2 link-secondary">Story Poins</a></li>
+              <li><a href="CalculateSp.html" class="nav-link px-2 link-secondary">Calc Horas</a></li>
+            </ul>
+          </header>
+    </div>
+
+    <div class="container Grid-list">
+        <div class="Item1 item_grid" id="screen-result">0</div>
+        <div class="Item2 item_grid">
+            <p>Story Point</p>
+        </div>
+        <div class="Item3 item_grid">
+            <p>Jornada Laboral</p>
+        </div>
+
+        <div class="Item4 item_grid">
+            <p>Total Story Point</p>
+        </div>
+        <div class="Item5 item_grid"><input  type="number" id="hora-jornada" value="8"></div>
+        <div class="Item6 item_grid"><input  type="number" id="story-p" value="1"></div>
+        <div class="Item7 item_grid"><input  type="number" id="total-Hist" value="0"></div>
+        <div class="Item8 item_grid"><button type="button" class="btn" id ="Button-reset" value="reset"><p id="calc">C</p></button></div>
+        <div class="Item9 item_grid"><button type="button" class="btn" id="Button-calc"><P id="calc">=</P></button></div>
+    </div>
+
+</body>
+</html>
