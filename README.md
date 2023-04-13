@@ -20,4 +20,4 @@ desarrollo = 4:00 horas -> equivaldria a = 0.5 Sp
 
 por lo que  la suma de 0.125 Sp + 0.375 Sp + 0.5 Sp es igual a 1 storypoint 
 
-![Untitled Diagram-Page-1](https://user-images.githubusercontent.com/105688894/231624549-7c0fdb8e-a98c-4b86-b6cf-1ae384c6ceb0.png)
+![Untitled Diagram-Page-1](https://github.com/Fabito-A/StoryPointsCalculator/blob/master/Untitled%20Diagram-Page-1.png)
